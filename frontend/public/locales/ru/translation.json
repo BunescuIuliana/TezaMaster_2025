@@ -1,0 +1,612 @@
+{
+  "header": {
+    "workingHours": "Пн-Пт: 9:00-18:00",
+    "searchPlaceholder": "Поиск товаров...",
+    "home": "Главная",
+    "about": "О нас",
+    "delivery": "Доставка",
+    "discounts": "Скидки",
+    "contact": "Контакты",
+    "blog": "Блог",
+    "login": "Вход",
+    "register": "Регистрация",
+    "adminPanel": "Панель администратора",
+    "logout": "Выход"
+  },
+  "footer": {
+    "quickLinks": {
+      "title": "Быстрые ссылки",
+      "aboutUs": "О нас",
+      "contact": "Контакты",
+      "privacyPolicy": "Политика конфиденциальности",
+      "termsConditions": "Условия и положения"
+    },
+    "contact": {
+      "title": "Контактная информация",
+      "email": "contact@smartstore.com",
+      "phone": "+373 123 456 789",
+      "address": "ул. Главная 123, Кишинев, Молдова"
+    },
+    "socialMedia": {
+      "title": "Подпишитесь на нас"
+    },
+    "paymentMethods": {
+      "title": "Способы оплаты"
+    },
+    "copyright": "SmartStore. Все права защищены."
+  },
+  "admin": {
+    "editProduct": {
+      "title": "Редактировать Товар",
+      "labels": {
+        "productName": "Название товара:",
+        "brandName": "Название бренда:",
+        "category": "Категория:",
+        "productImage": "Изображение товара:",
+        "price": "Цена:",
+        "sellingPrice": "Цена продажи:",
+        "description": "Описание:"
+      },
+      "placeholders": {
+        "productName": "Введите название товара",
+        "brandName": "Введите название бренда",
+        "category": "Выберите категорию",
+        "uploadText": "Загрузить изображение товара",
+        "price": "Введите цену",
+        "sellingPrice": "Введите цену продажи",
+        "description": "Введите описание товара"
+      },
+      "validation": {
+        "imageRequired": "*Пожалуйста, загрузите изображение товара"
+      },
+      "button": "Обновить Товар"
+    },
+    "productCard": {
+      "editButtonAlt": "Редактировать товар"
+    },
+    "changeRole": {
+      "title": "Изменить роль пользователя",
+      "name": "Имя",
+      "email": "Email",
+      "role": "Роль",
+      "updateButton": "Обновить роль",
+      "updateError": "Не удалось обновить роль"
+    },
+    "uploadProduct": {
+      "title": "Загрузить Товар",
+      "productName": "Название Товара",
+      "enterProductName": "Введите название товара",
+      "brandName": "Название Бренда",
+      "enterBrandName": "Введите название бренда",
+      "category": "Категория",
+      "selectCategory": "Выберите Категорию",
+      "productImage": "Изображение Товара",
+      "uploadProductImage": "Загрузить Изображение Товара",
+      "pleaseUploadImage": "*Пожалуйста, загрузите изображение товара",
+      "price": "Цена",
+      "enterPrice": "Введите цену",
+      "sellingPrice": "Цена Продажи",
+      "enterSellingPrice": "Введите цену продажи",
+      "description": "Описание",
+      "enterDescription": "Введите описание товара",
+      "uploadButton": "Загрузить Товар"
+    },
+    "adminProducts": {
+      "allProducts": "Все Товары",
+      "uploadProduct": "Загрузить Товар"
+    },
+    "allUsers": {
+      "title": "Все Пользователи",
+      "tableHeaders": {
+        "sr": "№",
+        "name": "Имя",
+        "email": "Эл. почта",
+        "role": "Роль",
+        "createdDate": "Дата создания",
+        "action": "Действие"
+      }
+    },
+    "allProducts": "Все Товары",
+    "adminPanelTitle": "Админ Панель",
+    "userRole": "Администратор"
+  },
+  "product": {
+    "addToCart": "Добавить в корзину",
+    "unnamed": "Безымянный товар",
+    "priceNotAvailable": "Цена недоступна",
+    "buy": "Купить сейчас",
+    "added_to_cart": "Товар добавлен в корзину",
+    "description": "Описание",
+    "recommended_products": "Рекомендуемые товары",
+    "back_button": "Назад",
+    "product_image": "Изображение товара",
+    "reviews": "отзывов",
+    "write_review": "Написать отзыв",
+    "discount": "скидка",
+    "buy_now": "Купить сейчас",
+    "add_to_cart": "Добавить в корзину",
+    "highlights": "Особенности",
+    "high_quality_materials": "Высококачественные материалы",
+    "warranty_available": "Гарантия доступна",
+    "free_shipping": "Бесплатная доставка"
+  },
+  "categoryList": {
+    "loading": "Загрузка категорий...",
+    "categories": {
+      "Smartphones": "Смартфоны",
+      "Headphones": "Наушники",
+      "Smartwatches": "Умные часы",
+      "Laptops": "Ноутбуки",
+      "Monitors": "Мониторы",
+      "Computers": "Компьютеры",
+      "TVs": "Телевизоры",
+      "Refrigerators": "Холодильники",
+      "Washing Machines": "Стиральные машины",
+      "Dryers": "Сушилки",
+      "Dishwashers": "Посудомоечные машины",
+      "Vacuum Cleaners": "Пылесосы",
+      "Coffee Machines": "Кофемашины",
+      "Microwave Ovens": "Микроволновые печи",
+      "Cameras": "Фотоаппараты",
+      "Printers": "Принтеры",
+      "Processors": "Процессоры",
+      "Speakers": "Колонки",
+      "Earphones": "Наушники",
+      "Mouse": "Мыши"
+    }
+  },
+  "roles": {
+    "admin": "Администратор",
+    "user": "Пользователь"
+  },
+  "common": {
+    "close": "Закрыть"
+  },
+  "categories": {
+    "electronics": "Электроника",
+    "home": "Бытовая техника",
+    "clothing": "Одежда",
+    "Smartphones": "Смартфоны",
+    "Headphones": "Наушники",
+    "Laptops": "Ноутбуки",
+    "Monitors": "Мониторы",
+    "Computers": "Компьютеры",
+    "TVs": "Телевизоры",
+    "Refrigerators": "Холодильники",
+    "Washing Machines": "Стиральные машины",
+    "Dryers": "Сушилки",
+    "Dishwashers": "Посудомоечные машины",
+    "Vacuum Cleaners": "Пылесосы",
+    "Coffee Machines": "Кофемашины",
+    "Microwave Ovens": "Микроволновые печи",
+    "Cameras": "Фотоаппараты",
+    "Printers": "Принтеры",
+    "Processors": "Процессоры",
+    "Speakers": "Колонки",
+    "Mouse": "Компьютерные мыши"
+  },
+  "about": {
+    "title": "О Нас",
+    "mainTitle": "Добро пожаловать в",
+    "smartStore": "SmartStore",
+    "imageAlt": "Команда SmartStore",
+    "welcomeMessage": "Добро пожаловать в",
+    "description1": "Мы являемся вашим главным направлением для всех ваших покупок. Наша миссия - предоставлять высококачественные продукты с исключительным обслуживанием клиентов.",
+    "description2": "Имея многолетний опыт в индустрии электронной коммерции, мы зарекомендовали себя как надежный и заслуживающий доверия магазин. Наша команда стремится сделать ваш опыт покупок легким и приятным.",
+    "fastShippingTitle": "Быстрая Доставка",
+    "fastShippingDescription": "Получите свои товары быстро с нашими вариантами экспресс-доставки.",
+    "securePaymentsTitle": "Безопасные Платежи",
+    "securePaymentsDescription": "Покупайте с уверенностью, используя наши безопасные платежные шлюзы.",
+    "customerSupportTitle": "Поддержка 24/7",
+    "customerSupportDescription": "Наша служба поддержки клиентов всегда готова вам помочь.",
+    "customerSatisfactionTitle": "Удовлетворенность Клиентов",
+    "customerSatisfactionDescription": "Ваше удовлетворение - наш главный приоритет."
+  },
+  "blog": {
+    "title": "Блог",
+    "mainTitle": "Наш блог",
+    "subtitle": "Последние новости и статьи",
+    "readMore": "Читать далее",
+    "post1": {
+      "title": "Будущее технологий",
+      "description": "Изучение последних технологических достижений, которые сформируют наше будущее.",
+      "date": "15 мая 2025"
+    },
+    "post2": {
+      "title": "Тренды веб-разработки",
+      "description": "Откройте для себя самые важные тенденции веб-разработки на 2025 год.",
+      "date": "2 июня 2025"
+    },
+    "post3": {
+      "title": "Искусственный интеллект",
+      "description": "Как ИИ преобразует отрасли в 2025 году и в последующие годы.",
+      "date": "10 июля 2025"
+    }
+  },
+  "categoryProduct": {
+    "sortBy": "Сортировать по",
+    "priceLowToHigh": "Цена: по возрастанию",
+    "priceHighToLow": "Цена: по убыванию",
+    "category": "Категория",
+    "searchResults": "Результаты поиска"
+  },
+  "contact": {
+    "title": "Свяжитесь с нами - SmartStore",
+    "mainTitle": "Контакты",
+    "smartStore": "SmartStore",
+    "getInTouch": "Свяжитесь с нами",
+    "getInTouchDescription": "Есть вопросы или нужна помощь? Мы здесь, чтобы помочь! Свяжитесь с нашей командой через любой из указанных каналов.",
+    "email": "Электронная почта",
+    "phone": "Телефон",
+    "support": "Поддержка",
+    "sendMessage": "Отправить сообщение",
+    "name": "Ваше имя",
+    "namePlaceholder": "Введите ваше имя",
+    "emailPlaceholder": "Введите ваш email",
+    "message": "Ваше сообщение",
+    "messagePlaceholder": "Напишите ваше сообщение здесь...",
+    "sendButton": "Отправить сообщение",
+    "bannerTitle": "Круглосуточная поддержка",
+    "bannerDescription": "Наша команда поддержки доступна 24/7, чтобы помочь вам с любыми вопросами или проблемами.",
+    "bannerImageAlt": "Команда поддержки клиентов"
+  },
+  "delivery": {
+    "title": "Информация о Доставке",
+    "about": {
+      "title": "О нашей службе доставки",
+      "description": "Мы предлагаем быструю и надежную доставку по всей стране. Наша команда гарантирует, что ваши заказы прибудут безопасно и вовремя."
+    },
+    "zones": {
+      "title": "Зоны Доставки",
+      "description": "Мы осуществляем доставку в следующие города и прилегающие районы:",
+      "cities": [
+        "Кишинев - Бесплатная доставка для заказов свыше 500 MDL",
+        "Бельцы - Стоимость доставки 50 MDL",
+        "Оргеев - Стоимость доставки 70 MDL",
+        "Другие города - Доставка доступна по запросу"
+      ]
+    },
+    "time": {
+      "title": "Сроки Доставки",
+      "description": "Стандартные сроки доставки:",
+      "details": [
+        "Кишинев: 1-2 рабочих дня",
+        "Бельцы: 2-3 рабочих дня",
+        "Другие города: 3-5 рабочих дней",
+        "Доступна экспресс-доставка за дополнительную плату"
+      ]
+    },
+    "costs": {
+      "title": "Стоимость Доставки",
+      "description": "Наши тарифы на доставку зависят от местоположения:",
+      "list": [
+        "Кишинев: Бесплатно для заказов свыше 500 MDL, иначе 30 MDL",
+        "Бельцы: Фиксированная ставка 50 MDL",
+        "Оргеев: Фиксированная ставка 70 MDL",
+        "Другие города: Рассчитывается по расстоянию"
+      ]
+    },
+    "contact": {
+      "title": "Контакты Доставки",
+      "description": "По вопросам доставки или специальным запросам:",
+      "details": [
+        "Телефон: +373 123 456 78",
+        "Email: delivery@smartstore.com",
+        "Часы работы: Пн-Пт 9:00-18:00"
+      ]
+    }
+  },
+  "discounts": {
+    "home": "Главная",
+    "breadcrumb": "Скидки и Предложения",
+    "title": "Специальные Скидки",
+    "subtitle": "Ограниченные предложения на наши лучшие товары. Не упустите!",
+    "categories": {
+      "airpods": "Беспроводные Наушники",
+      "watches": "Умные Часы",
+      "smartphones": "Смартфоны",
+      "headphones": "Премиальные Наушники"
+    },
+    "forgot_password": {
+      "title": "Сброс пароля",
+      "subtitle": "Введите свой email, и мы отправим вам ссылку для сброса пароля",
+      "email_label": "Адрес электронной почты",
+      "email_placeholder": "ваш@email.com",
+      "email_required": "Требуется электронная почта",
+      "invalid_email": "Пожалуйста, введите действительный адрес электронной почты",
+      "reset_button": "Отправить ссылку для сброса",
+      "sending": "Отправка",
+      "reset_email_sent": "Ссылка для сброса пароля отправлена на вашу электронную почту",
+      "reset_email_failed": "Не удалось отправить письмо для сброса. Пожалуйста, попробуйте еще раз."
+    }
+  },
+  "home": {
+    "title": "Интернет-магазин электроники и бытовой техники в Молдове"
+  },
+  "login": {
+    "all_fields_required": "Все поля обязательны для заполнения",
+    "invalid_email": "Пожалуйста, введите действительный адрес электронной почты",
+    "email": "Электронная почта",
+    "enter_email": "Введите ваш email",
+    "email_example": "Пример формата email",
+    "password": "Пароль",
+    "enter_password": "Введите ваш пароль",
+    "forgot_password": "Забыли пароль?",
+    "login_button": "Войти",
+    "login_failed": "Ошибка входа. Пожалуйста, попробуйте снова.",
+    "dont_have_account": "Нет аккаунта?",
+    "sign_up": "Зарегистрироваться"
+  },
+  "payment": {
+    "title": "Оплата и Доставка",
+    "deliveryMethod": "Способ доставки",
+    "deliveryCourier": "Доставка курьером",
+    "deliveryPickup": "Самовывоз",
+    "deliveryAddress": "Адрес доставки",
+    "contactPhone": "Контактный телефон",
+    "contactPhonePlaceholder": "Введите номер телефона",
+    "paymentDetails": "Детали оплаты",
+    "cardName": "Имя владельца карты",
+    "cardNamePlaceholder": "Имя на карте",
+    "cardNumber": "Номер карты",
+    "cardNumberPlaceholder": "1234 5678 9012 3456",
+    "expiryDate": "Срок действия",
+    "expiryDatePlaceholder": "ММ/ГГ",
+    "cvv": "CVV",
+    "cvvPlaceholder": "123",
+    "payButton": "Оплатить сейчас",
+    "processing": "Обработка...",
+    "acceptedCards": "Мы принимаем",
+    "securityMessage": "Ваши платежные данные обрабатываются безопасно. Мы не храним данные вашей кредитной карты.",
+    "address": {
+      "region": "Регион",
+      "city": "Город",
+      "cityPlaceholder": "Введите ваш город",
+      "street": "Улица",
+      "streetPlaceholder": "Улица и номер дома",
+      "postalCode": "Почтовый индекс",
+      "postalCodePlaceholder": "Введите почтовый индекс"
+    },
+    "errors": {
+      "cardNameRequired": "Имя владельца карты обязательно",
+      "cardNumberRequired": "Номер карты обязателен",
+      "cardNumberInvalid": "Неверный номер карты",
+      "expiryDateRequired": "Срок действия обязателен",
+      "expiryDateInvalid": "Неверный срок действия",
+      "cvvRequired": "CVV обязателен",
+      "cvvInvalid": "Неверный CVV",
+      "phoneRequired": "Номер телефона обязателен",
+      "phoneInvalid": "Неверный номер телефона",
+      "streetRequired": "Адрес улицы обязателен",
+      "cityRequired": "Город обязателен",
+      "postalCodeRequired": "Почтовый индекс обязателен",
+      "paymentFailed": "Оплата не удалась. Пожалуйста, попробуйте снова."
+    },
+    "successMessage": "Оплата прошла успешно! Ваш заказ обрабатывается."
+  },
+  "register": {
+    "name": "Имя",
+    "email": "Электронная почта",
+    "password": "Пароль",
+    "confirm_password": "Подтвердите пароль",
+    "enter_name": "Введите ваше имя",
+    "enter_email": "Введите вашу почту",
+    "enter_password": "Введите пароль",
+    "enter_confirm_password": "Подтвердите пароль",
+    "sign_up": "Зарегистрироваться",
+    "login": "Войти",
+    "already_have_account": "Уже есть аккаунт?",
+    "upload_photo": "Загрузить фото",
+    "password_mismatch": "Пароли не совпадают!",
+    "signup_failed": "Ошибка регистрации, попробуйте снова",
+    "example": "пример"
+  },
+  "search": {
+    "loading": "Загрузка",
+    "results": "Результаты поиска",
+    "no_results": "Товары не найдены"
+  },
+  "notFound": {
+    "message": "Упс! Страница не найдена",
+    "button": "Вернуться"
+  },
+  "cart": {
+    "yourCart": "Ваша корзина",
+    "items": "товары",
+    "emptyCart": "Ваша корзина пуста",
+    "addProductsPrompt": "Добавьте товары в корзину, чтобы продолжить",
+    "products": "Товары",
+    "totalQuantity": "Общее количество",
+    "totalToPay": "Итого к оплате",
+    "proceedToPayment": "Перейти к оплате",
+    "subtotal": "Промежуточный итог",
+    "removeItem": "Удалить товар",
+    "decreaseQuantity": "Уменьшить количество",
+    "increaseQuantity": "Увеличить количество",
+    "emptyCartAlert": "Ваша корзина пуста",
+    "loginRequired": "Пожалуйста, войдите в систему",
+    "fetchError": "Ошибка загрузки корзины",
+    "quantityUpdated": "Количество обновлено",
+    "updateError": "Ошибка обновления количества",
+    "productRemoved": "Товар удален",
+    "deleteError": "Ошибка удаления товара",
+    "authRequired": "Пожалуйста, авторизуйтесь для завершения"
+  },
+  "signup": {
+    "upload_photo": "Загрузить Фото",
+    "name": "Имя",
+    "enter_name": "Введите ваше имя",
+    "email": "Электронная почта",
+    "enter_email": "Введите ваш email",
+    "password": "Пароль",
+    "enter_password": "Введите ваш пароль",
+    "confirm_password": "Подтвердите Пароль",
+    "enter_confirm_password": "Подтвердите ваш пароль",
+    "sign_up": "Зарегистрироваться",
+    "already_have_account": "Уже есть аккаунт?",
+    "login": "Войти",
+    "password_mismatch": "Пароли не совпадают",
+    "signup_failed": "Ошибка регистрации, попробуйте снова"
+  },
+  "allUsers": {
+    "sr": "№",
+    "name": "Имя",
+    "email": "Эл. почта",
+    "role": "Роль",
+    "createdDate": "Дата создания",
+    "action": "Действие"
+  },
+  "adminProducts": {
+    "allProducts": "Все Товары",
+    "uploadProduct": "Загрузить Товар"
+  },
+  "admin": {
+    "allUsers": "Все Пользователи",
+    "allProducts": "Все Товары",
+    "adminPanelTitle": "Админ Панель",
+    "userRole": "Администратор"
+  },"adminEditProduct": {
+      "title": "Редактировать товар",
+      "labels": {
+        "productName": "Название товара:",
+        "brandName": "Бренд:",
+        "category": "Категория:",
+        "productImage": "Изображение товара:",
+        "price": "Цена:",
+        "sellingPrice": "Цена продажи:",
+        "description": "Описание:"
+      },
+      "placeholders": {
+        "productName": "Введите название товара",
+        "brandName": "Введите название бренда",
+        "category": "Выберите категорию",
+        "uploadText": "Загрузить изображение",
+        "price": "Введите цену",
+        "sellingPrice": "Введите цену продажи",
+        "description": "Введите описание товара"
+      },
+      "validation": {
+        "imageRequired": "*Пожалуйста, загрузите изображение товара"
+      },
+      "button": "Обновить товар"
+    },
+  "payment": {
+    "title": "Оплата и Доставка",
+    "deliveryMethod": "Способ Доставки",
+    "deliveryCourier": "Курьерская Доставка",
+    "deliveryPickup": "Самовывоз из Магазина",
+    "deliveryAddress": "Адрес Доставки",
+    "contactPhone": "Контактный Телефон",
+    "contactPhonePlaceholder": "Введите номер телефона",
+    "paymentDetails": "Детали Оплаты",
+    "cardName": "Имя Владельца Карты",
+    "cardNamePlaceholder": "Имя на карте",
+    "cardNumber": "Номер Карты",
+    "cardNumberPlaceholder": "1234 5678 9012 3456",
+    "expiryDate": "Срок Действия",
+    "expiryDatePlaceholder": "ММ/ГГ",
+    "cvv": "CVV",
+    "cvvPlaceholder": "123",
+    "payButton": "Оплатить Сейчас",
+    "processing": "Обработка...",
+    "acceptedCards": "Мы принимаем",
+    "securityMessage": "Ваши платежные данные обрабатываются безопасно. Мы не храним данные вашей карты.",
+    "address": {
+      "region": "Регион",
+      "city": "Город",
+      "cityPlaceholder": "Введите город",
+      "street": "Улица",
+      "streetPlaceholder": "Улица и номер дома",
+      "postalCode": "Почтовый Индекс",
+      "postalCodePlaceholder": "Введите почтовый индекс"
+    },
+    "errors": {
+      "cardNameRequired": "Требуется имя владельца карты",
+      "cardNumberRequired": "Требуется номер карты",
+      "cardNumberInvalid": "Неверный формат номера карты",
+      "expiryDateRequired": "Требуется срок действия",
+      "expiryDateInvalid": "Неверный формат (ММ/ГГ)",
+      "cvvRequired": "Требуется CVV",
+      "cvvInvalid": "Неверный CVV (3 цифры для Visa/Mastercard, 4 для Amex)",
+      "phoneRequired": "Требуется номер телефона",
+      "phoneInvalid": "Неверный номер (минимум 8 цифр)",
+      "streetRequired": "Требуется улица",
+      "cityRequired": "Требуется город",
+      "postalCodeRequired": "Требуется почтовый индекс",
+      "paymentFailed": "Ошибка оплаты. Проверьте данные."
+    },
+    "successMessage": "Оплата прошла успешно! Ваш заказ обрабатывается."
+  },
+    "categories": {
+        "Smartphones": "Смартфоны",
+        "Headphones": "Наушники",
+        "Smartwatches": "Умные часы",
+        "Laptops": "Ноутбуки",
+        "Monitors": "Мониторы",
+        "Computers": "Компьютеры",
+        "TVs": "Телевизоры",
+        "Refrigerators": "Холодильники",
+        "Washing Machines": "Стиральные машины",
+        "Dryers": "Сушилки",
+        "Dishwashers": "Посудомоечные машины",
+        "Vacuum Cleaners": "Пылесосы",
+        "Coffee Machines": "Кофемашины",
+        "Microwave Ovens": "Микроволновые печи",
+        "Cameras": "Фотоаппараты",
+        "Printers": "Принтеры",
+        "Processors": "Процессоры",
+        "Speakers": "Колонки",
+        "Hearphones": "Наушники",
+        "Mouse": "Мышки"
+    },
+  "payment": {
+    "title": "Детали оплаты",
+    "paymentDetails": "Детали оплаты",
+    "cardName": "Имя Владельца",
+    "cardNamePlaceholder": "Иван Иванов",
+    "cardNumber": "Номер Карты",
+    "expiryDate": "Срок Действия",
+    "cvv": "CVV",
+    "chooseDeliveryMethod": "Способ Доставки",
+    "deliveryCourier": "Курьерская Доставка",
+    "deliveryPickup": "Самовывоз",
+    "contactPhone": "Контактный Телефон",
+    "address": {
+      "region": "Регион",
+      "city": "Город",
+      "postalCode": "Почтовый Индекс",
+      "street": "Улица"
+    },
+    "pickupPoint": "Пункт Выдачи",
+    "pickupDate": "Дата Получения",
+    "selectPickupPoint": "Выберите Пункт",
+    "payButton": "Оплатить",
+    "processing": "Обработка...",
+    "acceptedCards": "Принимаемые Карты",
+    "securityMessage": "Защищённое SSL-соединение",
+    "cardTypes": {
+      "visa": "Visa",
+      "mastercard": "Mastercard",
+      "amex": "American Express"
+    },
+    "pickupPoints": {
+      "center": "Центр Города",
+      "botanica": "Ботанический Район",
+      "riscani": "Рышканский Район",
+      "ciocana": "Чеканский Район"
+    },
+    "errors": {
+      "cardNameRequired": "Имя владельца обязательно",
+      "cardNumberInvalid": "Неверный номер карты",
+      "expiryDateInvalid": "Неверная дата истечения",
+      "cvvInvalid": "Неверный CVV",
+      "phoneInvalid": "Неверный номер телефона",
+      "streetRequired": "Укажите улицу",
+      "cityRequired": "Укажите город",
+      "postalCodeRequired": "Укажите почтовый индекс",
+      "pickupPointRequired": "Выберите пункт выдачи",
+      "paymentFailed": "Ошибка оплаты"
+    },
+    "successMessage": "Оплата прошла успешно!"
+  }
+}

@@ -1,0 +1,603 @@
+{
+  "header": {
+    "workingHours": "Lun-Vin: 9:00-18:00",
+    "searchPlaceholder": "Căutați produse...",
+    "home": "Acasă",
+    "about": "Despre",
+    "delivery": "Livrare",
+    "discounts": "Reduceri",
+    "contact": "Contact",
+    "blog": "Blog",
+    "login": "Autentificare",
+    "register": "Înregistrare",
+    "adminPanel": "Panou Admin",
+    "logout": "Deconectare"
+  },
+  "footer": {
+    "quickLinks": {
+      "title": "Linkuri rapide",
+      "aboutUs": "Despre noi",
+      "contact": "Contact",
+      "privacyPolicy": "Politica de confidențialitate",
+      "termsConditions": "Termeni și condiții"
+    },
+    "contact": {
+      "title": "Informații de contact",
+      "email": "contact@smartstore.com",
+      "phone": "+373 123 456 789",
+      "address": "Strada Principală 123, Chișinău, Moldova"
+    },
+    "socialMedia": {
+      "title": "Urmărește-ne"
+    },
+    "paymentMethods": {
+      "title": "Metode de plată"
+    },
+    "copyright": "SmartStore. Toate drepturile rezervate."
+  },
+  "admin": {
+    "editProduct": {
+      "title": "Editează Produs",
+      "labels": {
+        "productName": "Nume Produs:",
+        "brandName": "Nume Brand:",
+        "category": "Categorie:",
+        "productImage": "Imagine Produs:",
+        "price": "Preț:",
+        "sellingPrice": "Preț de Vânzare:",
+        "description": "Descriere:"
+      },
+      "placeholders": {
+        "productName": "Introduceți numele produsului",
+        "brandName": "Introduceți numele brandului",
+        "category": "Selectați Categorie",
+        "uploadText": "Încărcați Imagine Produs",
+        "price": "Introduceți prețul",
+        "sellingPrice": "Introduceți prețul de vânzare",
+        "description": "Introduceți descrierea produsului"
+      },
+      "validation": {
+        "imageRequired": "*Vă rugăm să încărcați imaginea produsului"
+      },
+      "button": "Actualizează Produs"
+    },
+    "productCard": {
+      "editButtonAlt": "Editează produs"
+    },
+    "changeRole": {
+      "title": "Schimbă Rolul Utilizatorului",
+      "name": "Nume",
+      "email": "Email",
+      "role": "Rol",
+      "updateButton": "Actualizează Rolul",
+      "updateError": "Actualizarea rolului a eșuat"
+    },
+    "uploadProduct": {
+      "title": "Încărcare Produs",
+      "productName": "Nume Produs",
+      "enterProductName": "Introduceți numele produsului",
+      "brandName": "Nume Brand",
+      "enterBrandName": "Introduceți numele brandului",
+      "category": "Categorie",
+      "selectCategory": "Selectați Categoria",
+      "productImage": "Imagine Produs",
+      "uploadProductImage": "Încărcați Imaginea Produsului",
+      "pleaseUploadImage": "*Vă rugăm să încărcați imaginea produsului",
+      "price": "Preț",
+      "enterPrice": "Introduceți prețul",
+      "sellingPrice": "Preț de Vânzare",
+      "enterSellingPrice": "Introduceți prețul de vânzare",
+      "description": "Descriere",
+      "enterDescription": "Introduceți descrierea produsului",
+      "uploadButton": "Încărcați Produsul"
+    },
+    "adminProducts": {
+      "allProducts": "Toate Produsele",
+      "uploadProduct": "Încărcare Produs"
+    },
+    "allUsers": "Toți Utilizatorii",
+    "allProducts": "Toate Produsele",
+    "adminPanelTitle": "Panou Administrare",
+    "userRole": "Administrator"
+  },
+  "product": {
+    "addToCart": "Adaugă în coș",
+    "unnamed": "Produs fără nume",
+    "priceNotAvailable": "Preț indisponibil",
+    "buy": "Cumpără acum",
+    "added_to_cart": "Produs adăugat în coș",
+    "description": "Descriere",
+    "recommended_products": "Produse recomandate",
+    "product": "Produs",
+    "back_button": "Înapoi",
+    "product_image": "Imagine produs",
+    "reviews": "recenzii",
+    "write_review": "Scrie o recenzie",
+    "discount": "reducere",
+    "buy_now": "Cumpără acum",
+    "add_to_cart": "Adaugă în coș",
+    "highlights": "Caracteristici",
+    "high_quality_materials": "Materiale de înaltă calitate",
+    "warranty_available": "Garanție disponibilă",
+    "free_shipping": "Livrare gratuită"
+  },
+  "categoryList": {
+    "loading": "Se încarcă categorii...",
+    "categories": {
+      "Smartphones": "Smartphone-uri",
+      "Headphones": "Căști",
+      "Smartwatches": "Ceasuri inteligente",
+      "Laptops": "Laptop-uri",
+      "Monitors": "Monitoare",
+      "Computers": "Calculatoare",
+      "TVs": "Televizoare",
+      "Refrigerators": "Frigidere",
+      "Washing Machines": "Mașini de spălat",
+      "Dryers": "Uscătoare",
+      "Dishwashers": "Mașini de spălat vase",
+      "Vacuum Cleaners": "Aspiratoare",
+      "Coffee Machines": "Cafetiere",
+      "Microwave Ovens": "Cuptoare cu microunde",
+      "Cameras": "Camere foto",
+      "Printers": "Imprimante",
+      "Processors": "Procesoare",
+      "Speakers": "Boxe",
+      "Earphones": "Căști de urechi",
+      "Mouse": "Mouse-uri"
+    }
+  },
+  "roles": {
+    "admin": "Administrator",
+    "user": "Utilizator"
+  },
+  "common": {
+    "close": "Închide"
+  },
+  "categories": {
+    "electronics": "Electronice",
+    "smartphones": "Smartphone-uri",
+    "headphones": "Căști",
+    "laptops": "Laptop-uri",
+    "home": "Electrocasnice",
+    "clothing": "Îmbrăcăminte",
+    "Monitors": "Monitoare",
+    "Computers": "Calculatoare",
+    "TVs": "Televizoare",
+    "Refrigerators": "Frigidere",
+    "Washing Machines": "Mașini de Spălat",
+    "Dryers": "Uscătoare",
+    "Dishwashers": "Mașini de Spălat Vase",
+    "Vacuum Cleaners": "Aspiratoare",
+    "Coffee Machines": "Cafetiere",
+    "Microwave Ovens": "Cuptoare cu Microunde",
+    "Cameras": "Camere Foto",
+    "Printers": "Imprimante",
+    "Processors": "Procesoare",
+    "Speakers": "Boxe",
+    "Mouse": "Mouse-uri"
+  },
+  "about": {
+    "title": "Despre Noi",
+    "mainTitle": "Bine ați venit la",
+    "smartStore": "SmartStore",
+    "imageAlt": "Echipa SmartStore",
+    "welcomeMessage": "Bine ați venit la",
+    "description1": "Suntem destinația dumneavoastră principală pentru toate nevoile de cumpărături. Misiunea noastră este să oferim produse de înaltă calitate cu servicii excepționale pentru clienți.",
+    "description2": "Cu ani de experiență în industria e-commerce, ne-am construit o reputație pentru fiabilitate și seriozitate. Echipa noastră este dedicată să vă asigure o experiență de cumpărare fără probleme și plăcută.",
+    "fastShippingTitle": "Livrare Rapidă",
+    "fastShippingDescription": "Primiți produsele rapid cu opțiunile noastre de livrare expres.",
+    "securePaymentsTitle": "Plăți Securizate",
+    "securePaymentsDescription": "Cumpărați cu încredere folosind gateway-urile noastre de plată securizate.",
+    "customerSupportTitle": "Suport 24/7",
+    "customerSupportDescription": "Echipa noastră de servicii pentru clienți este întotdeauna gata să vă ajute.",
+    "customerSatisfactionTitle": "Satisfacția Clienților",
+    "customerSatisfactionDescription": "Satisfacția dumneavoastră este prioritatea noastră principală."
+  },
+  "blog": {
+    "title": "Blog",
+    "mainTitle": "Blogul nostru",
+    "subtitle": "Cele mai recente știri și articole",
+    "readMore": "Citește mai mult",
+    "post1": {
+      "title": "Viitorul tehnologiei",
+      "description": "Explorarea celor mai recente progrese tehnologice care vor modela viitorul nostru.",
+      "date": "15 Mai 2025"
+    },
+    "post2": {
+      "title": "Tendințe în dezvoltarea web",
+      "description": "Descoperiți cele mai importante tendințe în dezvoltarea web pentru 2025.",
+      "date": "2 Iunie 2025"
+    },
+    "post3": {
+      "title": "Inteligența artificială",
+      "description": "Cum transformă IA industriile în 2025 și mai departe.",
+      "date": "10 Iulie 2025"
+    }
+  },
+  "categoryProduct": {
+    "sortBy": "Sortează după",
+    "priceLowToHigh": "Preț: Crescător",
+    "priceHighToLow": "Preț: Descrescător",
+    "category": "Categorie",
+    "searchResults": "Rezultatele căutării"
+  },
+  "contact": {
+    "title": "Contactați-ne - SmartStore",
+    "mainTitle": "Contact",
+    "smartStore": "SmartStore",
+    "getInTouch": "Contactați-ne",
+    "getInTouchDescription": "Aveți întrebări sau aveți nevoie de ajutor? Suntem aici pentru a vă ajute! Contactați echipa noastră prin oricare dintre canalele de mai jos.",
+    "email": "Email",
+    "phone": "Telefon",
+    "support": "Suport",
+    "sendMessage": "Trimiteți-ne un mesaj",
+    "name": "Numele Dvs.",
+    "namePlaceholder": "Introduceți numele",
+    "emailPlaceholder": "Introduceți email-ul",
+    "message": "Mesajul Dvs.",
+    "messagePlaceholder": "Scrieți mesajul aici...",
+    "sendButton": "Trimite Mesaj",
+    "bannerTitle": "Suport Clienți Non-Stop",
+    "bannerDescription": "Echipa noastră dedicată de suport este disponibilă non-stop pentru a vă ajuta cu orice întrebări sau nelămuriri.",
+    "bannerImageAlt": "Echipă de suport clienți"
+  },
+  "delivery": {
+    "title": "Informații despre Livrare",
+    "about": {
+      "title": "Despre serviciul nostru de livrare",
+      "description": "Oferim servicii rapide și fiabile de livrare în întreaga țară. Echipa noastră asigură că comenzile dumneavoastră ajung în siguranță și la timp."
+    },
+    "zones": {
+      "title": "Zone de Livrare",
+      "description": "Livrăm în următoarele orașe și zonele înconjurătoare:",
+      "cities": [
+        "Chișinău - Livrare gratuită pentru comenzi peste 500 MDL",
+        "Bălți - Taxă de livrare 50 MDL",
+        "Orhei - Taxă de livrare 70 MDL",
+        "Alte orașe - Livrare disponibilă la cerere"
+      ]
+    },
+    "time": {
+      "title": "Timp de Livrare",
+      "description": "Termenele standard de livrare:",
+      "details": [
+        "Chișinău: 1-2 zile lucrătoare",
+        "Bălți: 2-3 zile lucrătoare",
+        "Alte orașe: 3-5 zile lucrătoare",
+        "Livrare express disponibilă contra cost suplimentar"
+      ]
+    },
+    "costs": {
+      "title": "Costuri de Livrare",
+      "description": "Taxele noastre de livrare sunt în funcție de locație:",
+      "list": [
+        "Chișinău: Gratuit pentru comenzi peste 500 MDL, altfel 30 MDL",
+        "Bălți: Taxă fixă de 50 MDL",
+        "Orhei: Taxă fixă de 70 MDL",
+        "Alte orașe: Calculată în funcție de distanță"
+      ]
+    },
+    "contact": {
+      "title": "Contact pentru Livrare",
+      "description": "Pentru întrebări sau cereri speciale de livrare:",
+      "details": [
+        "Telefon: +373 123 456 78",
+        "Email: delivery@smartstore.com",
+        "Program de lucru: Luni-Vineri 9:00-18:00"
+      ]
+    }
+  },
+  "discounts": {
+    "home": "Acasă",
+    "breadcrumb": "Reduceri & Oferte",
+    "title": "Reducerile Speciale",
+    "subtitle": "Oferte limitate pentru cele mai bune produse. Nu ratați!",
+    "categories": {
+      "airpods": "Căști Wireless",
+      "watches": "Ceasuri Smart",
+      "smartphones": "Smartphone-uri",
+      "headphones": "Căști Premium"
+    },
+    "forgot_password": {
+      "title": "Resetează parola",
+      "subtitle": "Introdu adresa de email și vom trimite un link pentru resetarea parolei",
+      "email_label": "Adresă de email",
+      "email_placeholder": "email@dvs.com",
+      "email_required": "Adresa de email este obligatorie",
+      "invalid_email": "Vă rugăm să introduceți o adresă de email validă",
+      "reset_button": "Trimite link de resetare",
+      "sending": "Se trimite",
+      "reset_email_sent": "Link-ul de resetare a parolei a fost trimis pe email",
+      "reset_email_failed": "Trimiterea email-ului de resetare a eșuat. Încercați din nou."
+    }
+  },
+  "home": {
+    "title": "Magazin online de electronice și electrocasnice în Moldova"
+  },
+  "login": {
+    "all_fields_required": "Toate câmpurile sunt obligatorii",
+    "invalid_email": "Vă rugăm să introduceți o adresă de email validă",
+    "email": "Email",
+    "enter_email": "Introduceți email-ul",
+    "email_example": "Exemplu format email",
+    "password": "Parolă",
+    "enter_password": "Introduceți parola",
+    "forgot_password": "Ați uitat parola?",
+    "login_button": "Autentificare",
+    "login_failed": "Autentificare eșuată. Vă rugăm să încercați din nou.",
+    "dont_have_account": "Nu aveți cont?",
+    "sign_up": "Înregistrare"
+  },
+  "payment": {
+    "title": "Plată și Livrare",
+    "deliveryMethod": "Metodă de livrare",
+    "deliveryCourier": "Livrare prin curier",
+    "deliveryPickup": "Ridicare din magazin",
+    "deliveryAddress": "Adresă de livrare",
+    "contactPhone": "Telefon de contact",
+    "contactPhonePlaceholder": "Introduceți numărul de telefon",
+    "paymentDetails": "Detalii plată",
+    "cardName": "Numele de pe card",
+    "cardNamePlaceholder": "Numele scris pe card",
+    "cardNumber": "Număr card",
+    "cardNumberPlaceholder": "1234 5678 9012 3456",
+    "expiryDate": "Data expirării",
+    "expiryDatePlaceholder": "LL/AA",
+    "cvv": "CVV",
+    "cvvPlaceholder": "123",
+    "payButton": "Plătește acum",
+    "processing": "Se procesează...",
+    "acceptedCards": "Acceptăm",
+    "securityMessage": "Informațiile de plată sunt procesate în siguranță. Nu stocăm detaliile cardului de credit.",
+    "address": {
+      "region": "Regiune",
+      "city": "Oraș",
+      "cityPlaceholder": "Introduceți orașul",
+      "street": "Stradă",
+      "streetPlaceholder": "Strada și numărul casei",
+      "postalCode": "Cod poștal",
+      "postalCodePlaceholder": "Introduceți codul poștal"
+    },
+    "errors": {
+      "cardNameRequired": "Numele de pe card este obligatoriu",
+      "cardNumberRequired": "Numărul cardului este obligatoriu",
+      "cardNumberInvalid": "Număr de card invalid",
+      "expiryDateRequired": "Data expirării este obligatorie",
+      "expiryDateInvalid": "Dată expirare invalidă",
+      "cvvRequired": "CVV-ul este obligatoriu",
+      "cvvInvalid": "CVV invalid",
+      "phoneRequired": "Numărul de telefon este obligatoriu",
+      "phoneInvalid": "Număr de telefon invalid",
+      "streetRequired": "Adresa străzii este obligatorie",
+      "cityRequired": "Orașul este obligatoriu",
+      "postalCodeRequired": "Codul poștal este obligatoriu",
+      "paymentFailed": "Plata a eșuat. Vă rugăm să încercați din nou."
+    },
+    "successMessage": "Plată efectuată cu succes! Comanda dvs. este în curs de procesare."
+  },
+  "register": {
+    "name": "Nume",
+    "email": "Email",
+    "password": "Parolă",
+    "confirm_password": "Confirmă parola",
+    "enter_name": "Introduceți numele",
+    "enter_email": "Introduceți email-ul",
+    "enter_password": "Introduceți parola",
+    "enter_confirm_password": "Confirmați parola",
+    "sign_up": "Înregistrare",
+    "login": "Autentificare",
+    "already_have_account": "Aveți deja cont?",
+    "upload_photo": "Încarcă fotografie",
+    "password_mismatch": "Parolele nu coincid!",
+    "signup_failed": "Înregistrare eșuată, încercați din nou",
+    "example": "exemplu"
+  },
+  "search": {
+    "loading": "Se încarcă",
+    "results": "Rezultate căutare",
+    "no_results": "Nu s-au găsit produse"
+  },
+  "notFound": {
+    "message": "Ups! Pagina nu a fost găsită",
+    "button": "Înapoi"
+  },
+  "cart": {
+    "yourCart": "Coșul tău",
+    "items": "produse",
+    "emptyCart": "Coșul dumneavoastră este gol",
+    "addProductsPrompt": "Adăugați produse în coș pentru a continua",
+    "products": "Produse",
+    "totalQuantity": "Total bucăți",
+    "totalToPay": "Total de plată",
+    "proceedToPayment": "Finalizează comanda",
+    "subtotal": "Subtotal",
+    "removeItem": "Elimină produs",
+    "decreaseQuantity": "Micșorează cantitatea",
+    "increaseQuantity": "Mărește cantitatea",
+    "emptyCartAlert": "Coșul dumneavoastră este gol",
+    "loginRequired": "Vă rugăm să vă autentificați",
+    "fetchError": "Eroare la încărcarea coșului",
+    "quantityUpdated": "Cantitate actualizată",
+    "updateError": "Eroare la actualizarea cantității",
+    "productRemoved": "Produs eliminat",
+    "deleteError": "Eroare la eliminarea produsului",
+    "authRequired": "Vă rugăm să vă autentificați pentru finalizare"
+  },
+  "signup": {
+    "upload_photo": "Încarcă Fotografie",
+    "name": "Nume",
+    "enter_name": "Introduceți numele",
+    "email": "Email",
+    "enter_email": "Introduceți adresa de email",
+    "password": "Parolă",
+    "enter_password": "Introduceți parola",
+    "confirm_password": "Confirmă Parola",
+    "enter_confirm_password": "Confirmați parola",
+    "sign_up": "Înregistrare",
+    "already_have_account": "Aveți deja un cont?",
+    "login": "Autentificare",
+    "password_mismatch": "Parolele nu coincid",
+    "signup_failed": "Înregistrare eșuată, încercați din nou"
+  },
+  "allUsers": {
+    "sr": "Nr.",
+    "name": "Nume",
+    "email": "Email",
+    "role": "Rol",
+    "createdDate": "Data creării",
+    "action": "Acțiune"
+  },
+  "adminProducts": {
+    "allProducts": "Toate Produsele",
+    "uploadProduct": "Încărcare Produs"
+  },
+  "admin": {
+    "allUsers": "Toți Utilizatorii",
+    "allProducts": "Toate Produsele",
+    "adminPanelTitle": "Panou Administrare",
+    "userRole": "Administrator"
+  }, "adminEditProduct": {
+      "title": "Editează Produs",
+      "labels": {
+        "productName": "Nume Produs:",
+        "brandName": "Nume Brand:",
+        "category": "Categorie:",
+        "productImage": "Imagine Produs:",
+        "price": "Preț:",
+        "sellingPrice": "Preț de Vânzare:",
+        "description": "Descriere:"
+      },
+      "placeholders": {
+        "productName": "Introduceți numele produsului",
+        "brandName": "Introduceți numele brandului",
+        "category": "Selectați Categorie",
+        "uploadText": "Încărcați Imagine Produs",
+        "price": "Introduceți prețul",
+        "sellingPrice": "Introduceți prețul de vânzare",
+        "description": "Introduceți descrierea produsului"
+      },
+      "validation": {
+        "imageRequired": "*Vă rugăm să încărcați imaginea produsului"
+      },
+      "button": "Actualizează Produs"
+    },
+  "payment": {
+    "title": "Plată și Livrare",
+    "deliveryMethod": "Metodă de Livrare",
+    "deliveryCourier": "Livrare prin Curier",
+    "deliveryPickup": "Ridicare din Magazin",
+    "deliveryAddress": "Adresă de Livrare",
+    "contactPhone": "Telefon de Contact",
+    "contactPhonePlaceholder": "Introduceți numărul de telefon",
+    "paymentDetails": "Detalii Plată",
+    "cardName": "Nume pe Card",
+    "cardNamePlaceholder": "Numele de pe card",
+    "cardNumber": "Număr Card",
+    "cardNumberPlaceholder": "1234 5678 9012 3456",
+    "expiryDate": "Data Expirării",
+    "expiryDatePlaceholder": "LL/AA",
+    "cvv": "CVV",
+    "cvvPlaceholder": "123",
+    "payButton": "Plătește Acum",
+    "processing": "Procesare...",
+    "acceptedCards": "Acceptăm",
+    "securityMessage": "Informațiile dumneavoastră sunt procesate în siguranță. Nu stocăm detaliile cardului.",
+    "address": {
+      "region": "Regiune",
+      "city": "Oraș",
+      "cityPlaceholder": "Introduceți orașul",
+      "street": "Stradă",
+      "streetPlaceholder": "Stradă și număr",
+      "postalCode": "Cod Poștal",
+      "postalCodePlaceholder": "Introduceți codul poștal"
+    },
+    "errors": {
+      "cardNameRequired": "Numele de pe card este obligatoriu",
+      "cardNumberRequired": "Numărul cardului este obligatoriu",
+      "cardNumberInvalid": "Format invalid al numărului cardului",
+      "expiryDateRequired": "Data expirării este obligatorie",
+      "expiryDateInvalid": "Format invalid (LL/AA)",
+      "cvvRequired": "CVV-ul este obligatoriu",
+      "cvvInvalid": "CVV invalid (3 cifre pentru Visa/Mastercard, 4 pentru Amex)",
+      "phoneRequired": "Numărul de telefon este obligatoriu",
+      "phoneInvalid": "Număr invalid (minimum 8 cifre)",
+      "streetRequired": "Adresa străzii este obligatorie",
+      "cityRequired": "Orașul este obligatoriu",
+      "postalCodeRequired": "Codul poștal este obligatoriu",
+      "paymentFailed": "Plata a eșuat. Verificați detaliile."
+    },
+    "successMessage": "Plată efectuată cu succes! Comanda dumneavoastră este în procesare."
+  },
+    "categories": {
+        "Smartphones": "Smartphone-uri",
+        "Headphones": "Căști",
+        "Smartwatches": "Ceasuri inteligente",
+        "Laptops": "Laptop-uri",
+        "Monitors": "Monitoare",
+        "Computers": "Calculatoare",
+        "TVs": "Televizoare",
+        "Refrigerators": "Frigidere",
+        "Washing Machines": "Mașini de spălat",
+        "Dryers": "Uscătoare",
+        "Dishwashers": "Mașini de spălat vase",
+        "Vacuum Cleaners": "Aspiratoare",
+        "Coffee Machines": "Cafetiere",
+        "Microwave Ovens": "Cuptoare cu microunde",
+        "Cameras": "Camere foto",
+        "Printers": "Imprimante",
+        "Processors": "Procesoare",
+        "Speakers": "Boxe",
+        "Hearphones": "Căști",
+        "Mouse": "Mouse-uri"
+    },
+  "payment": {
+    "title": "Detalii Plată",
+    "paymentDetails": "Detalii Plată",
+    "cardName": "Nume Titular",
+    "cardNamePlaceholder": "Ion Popescu",
+    "cardNumber": "Număr Card",
+    "expiryDate": "Data Expirării",
+    "cvv": "CVV",
+    "chooseDeliveryMethod": "Metodă Livrare",
+    "deliveryCourier": "Livrare la Adresă",
+    "deliveryPickup": "Ridicare din Magazin",
+    "contactPhone": "Telefon Contact",
+    "address": {
+      "region": "Regiune",
+      "city": "Oraș",
+      "postalCode": "Cod Poștal",
+      "street": "Stradă"
+    },
+    "pickupPoint": "Punct Ridicare",
+    "pickupDate": "Data Ridicării",
+    "selectPickupPoint": "Selectați Punctul",
+    "payButton": "Finalizează Plata",
+    "processing": "Procesare...",
+    "acceptedCards": "Carduri Acceptate",
+    "securityMessage": "Criptare securizată SSL",
+    "cardTypes": {
+      "visa": "Visa",
+      "mastercard": "Mastercard",
+      "amex": "American Express"
+    },
+    "pickupPoints": {
+      "center": "Centru Oraș",
+      "botanica": "Sectorul Botanica",
+      "riscani": "Sectorul Rîșcani",
+      "ciocana": "Sectorul Ciocana"
+    },
+    "errors": {
+      "cardNameRequired": "Numele titularului este obligatoriu",
+      "cardNumberInvalid": "Număr card invalid",
+      "expiryDateInvalid": "Dată expirare invalidă",
+      "cvvInvalid": "CVV invalid",
+      "phoneInvalid": "Număr telefon invalid",
+      "streetRequired": "Strada este obligatorie",
+      "cityRequired": "Orașul este obligatoriu",
+      "postalCodeRequired": "Codul poștal este obligatoriu",
+      "pickupPointRequired": "Selectați punctul de ridicare",
+      "paymentFailed": "Plata a eșuat"
+    },
+    "successMessage": "Plată efectuată cu succes!"
+  }
+}

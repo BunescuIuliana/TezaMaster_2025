@@ -1,0 +1,562 @@
+{
+  "header": {
+    "workingHours": "Mon-Fri: 9:00-18:00",
+    "searchPlaceholder": "Search products...",
+    "home": "Home",
+    "about": "About",
+    "delivery": "Delivery",
+    "discounts": "Discounts",
+    "contact": "Contact",
+    "blog": "Blog",
+    "login": "Login",
+    "register": "Register",
+    "adminPanel": "Admin Panel",
+    "logout": "Logout"
+  },
+  "footer": {
+    "quickLinks": {
+      "title": "Quick Links",
+      "aboutUs": "About Us",
+      "contact": "Contact",
+      "privacyPolicy": "Privacy Policy",
+      "termsConditions": "Terms & Conditions"
+    },
+    "contact": {
+      "title": "Contact Information",
+      "email": "contact@smartstore.com",
+      "phone": "+373 123 456 789",
+      "address": "123 Main Street, Chisinau, Moldova"
+    },
+    "socialMedia": {
+      "title": "Follow Us"
+    },
+    "paymentMethods": {
+      "title": "Payment Methods"
+    },
+    "copyright": "SmartStore. All rights reserved."
+  },
+  "admin": {
+    "editProduct": {
+      "title": "Edit Product",
+      "labels": {
+        "productName": "Product Name:",
+        "brandName": "Brand Name:",
+        "category": "Category:",
+        "productImage": "Product Image:",
+        "price": "Price:",
+        "sellingPrice": "Selling Price:",
+        "description": "Description:"
+      },
+      "placeholders": {
+        "productName": "Enter product name",
+        "brandName": "Enter brand name",
+        "category": "Select Category",
+        "uploadText": "Upload Product Image",
+        "price": "Enter price",
+        "sellingPrice": "Enter selling price",
+        "description": "Enter product description"
+      },
+      "validation": {
+        "imageRequired": "*Please upload product image"
+      },
+      "button": "Update Product"
+    },
+    "productCard": {
+      "editButtonAlt": "Edit product"
+    },
+    "changeRole": {
+      "title": "Change User Role",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "updateButton": "Update Role",
+      "updateError": "Failed to update role"
+    },
+    "uploadProduct": {
+      "title": "Upload Product",
+      "productName": "Product Name",
+      "enterProductName": "Enter product name",
+      "brandName": "Brand Name",
+      "enterBrandName": "Enter brand name",
+      "category": "Category",
+      "selectCategory": "Select Category",
+      "productImage": "Product Image",
+      "uploadProductImage": "Upload Product Image",
+      "pleaseUploadImage": "*Please upload product image",
+      "price": "Price",
+      "enterPrice": "Enter price",
+      "sellingPrice": "Selling Price",
+      "enterSellingPrice": "Enter selling price",
+      "description": "Description",
+      "enterDescription": "Enter product description",
+      "uploadButton": "Upload Product"
+    },
+    "allUsers": {
+      "title": "All Users",
+      "tableHeaders": {
+        "sr": "Sr",
+        "name": "Name",
+        "email": "Email",
+        "role": "Role",
+        "createdDate": "Created Date",
+        "action": "Action"
+      }
+    },
+    "allProducts": "All Products",
+    "adminPanelTitle": "Admin Dashboard",
+    "userRole": "Administrator",
+    "adminEditProduct": {
+      "title": "Edit Product",
+      "labels": {
+        "productName": "Product Name",
+        "brandName": "Brand Name",
+        "category": "Category",
+        "productImage": "Product Images",
+        "price": "Original Price",
+        "sellingPrice": "Selling Price",
+        "description": "Description"
+      },
+      "placeholders": {
+        "productName": "Enter product name...",
+        "brandName": "Enter brand name...",
+        "category": "Select Category",
+        "uploadText": "Click to upload images",
+        "price": "Enter original price...",
+        "sellingPrice": "Enter selling price...",
+        "description": "Enter product description..."
+      },
+      "validation": {
+        "imageRequired": "At least one image is required"
+      },
+      "button": "Update Product"
+    }
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "unnamed": "Unnamed Product",
+    "priceNotAvailable": "Price N/A",
+    "buy": "Buy Now",
+    "added_to_cart": "Added to cart",
+    "description": "Description",
+    "recommended_products": "Recommended Products",
+    "product": "Product",
+    "back_button": "Back",
+    "product_image": "Product image",
+    "reviews": "reviews",
+    "write_review": "Write a review",
+    "discount": "discount",
+    "buy_now": "Buy Now",
+    "add_to_cart": "Add to Cart",
+    "highlights": "Highlights",
+    "high_quality_materials": "High-quality materials",
+    "warranty_available": "Warranty available",
+    "free_shipping": "Free shipping"
+  },
+  "categoryList": {
+    "loading": "Loading categories...",
+    "categories": {
+      "Smartphones": "Smartphones",
+      "Headphones": "Headphones",
+      "Smartwatches": "Smartwatches",
+      "Laptops": "Laptops",
+      "Monitors": "Monitors",
+      "Computers": "Computers",
+      "TVs": "TVs",
+      "Refrigerators": "Refrigerators",
+      "Washing Machines": "Washing Machines",
+      "Dryers": "Dryers",
+      "Dishwashers": "Dishwashers",
+      "Vacuum Cleaners": "Vacuum Cleaners",
+      "Coffee Machines": "Coffee Machines",
+      "Microwave Ovens": "Microwave Ovens",
+      "Cameras": "Cameras",
+      "Printers": "Printers",
+      "Processors": "Processors",
+      "Speakers": "Speakers",
+      "Earphones": "Earphones",
+      "Mouse": "Mouse"
+    }
+  },
+  "roles": {
+    "admin": "Admin",
+    "user": "User"
+  },
+  "common": {
+    "close": "Close"
+  },
+  "categories": {
+    "electronics": "Electronics",
+    "home": "Home Appliances",
+    "clothing": "Clothing",
+    "smartphones": "Smartphones",
+    "headphones": "Headphones",
+    "smartwatches": "Smartwatches",
+    "laptops": "Laptops",
+    "monitors": "Monitors",
+    "computers": "Computers",
+    "televisions": "TVs",
+    "refrigerators": "Refrigerators",
+    "washingMachines": "Washing Machines",
+    "dryers": "Dryers",
+    "dishwashers": "Dishwashers",
+    "vacuumCleaners": "Vacuum Cleaners",
+    "coffeeMachines": "Coffee Machines",
+    "microwaveOvens": "Microwave Ovens",
+    "cameras": "Cameras",
+    "printers": "Printers",
+    "processors": "Processors",
+    "speakers": "Speakers",
+    "mouse": "Mouse"
+  },
+  "about": {
+    "title": "About Us",
+    "mainTitle": "Welcome to",
+    "smartStore": "SmartStore",
+    "imageAlt": "SmartStore team",
+    "welcomeMessage": "Welcome to",
+    "description1": "We are your premier destination for all your shopping needs. Our mission is to provide high-quality products with exceptional customer service.",
+    "description2": "With years of experience in the e-commerce industry, we've built a reputation for reliability and trustworthiness. Our team is dedicated to ensuring your shopping experience is seamless and enjoyable.",
+    "fastShippingTitle": "Fast Shipping",
+    "fastShippingDescription": "Get your products delivered quickly with our express shipping options.",
+    "securePaymentsTitle": "Secure Payments",
+    "securePaymentsDescription": "Shop with confidence using our secure payment gateways.",
+    "customerSupportTitle": "24/7 Support",
+    "customerSupportDescription": "Our customer service team is always ready to assist you.",
+    "customerSatisfactionTitle": "Customer Satisfaction",
+    "customerSatisfactionDescription": "Your satisfaction is our top priority."
+  },
+  "adminProducts": {
+    "allProducts": "All Products",
+    "uploadProduct": "Upload Product"
+  },
+  "blog": {
+    "title": "Blog",
+    "mainTitle": "Our Blog",
+    "subtitle": "Latest news and articles",
+    "readMore": "Read More",
+    "post1": {
+      "title": "The Future of Technology",
+      "description": "Exploring the latest technological advancements that will shape our future.",
+      "date": "May 15, 2025"
+    },
+    "post2": {
+      "title": "Web Development Trends",
+      "description": "Discover the most important web development trends for 2025.",
+      "date": "June 2, 2025"
+    },
+    "post3": {
+      "title": "Artificial Intelligence",
+      "description": "How AI is transforming industries in 2025 and beyond.",
+      "date": "July 10, 2025"
+    }
+  },
+  "categoryProduct": {
+    "sortBy": "Sort By",
+    "priceLowToHigh": "Price: Low to High",
+    "priceHighToLow": "Price: High to Low",
+    "category": "Category",
+    "searchResults": "Search Results"
+  },
+  "contact": {
+    "title": "Contact Us - SmartStore",
+    "mainTitle": "Contact",
+    "smartStore": "SmartStore",
+    "getInTouch": "Get in Touch",
+    "getInTouchDescription": "Have questions or need assistance? We're here to help! Reach out to our team through any of the channels below.",
+    "email": "Email",
+    "phone": "Phone",
+    "support": "Support",
+    "sendMessage": "Send us a message",
+    "name": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "Enter your email",
+    "message": "Your Message",
+    "messagePlaceholder": "Type your message here...",
+    "sendButton": "Send Message",
+    "bannerTitle": "24/7 Customer Support",
+    "bannerDescription": "Our dedicated support team is available around the clock to assist you with any questions or concerns.",
+    "bannerImageAlt": "Customer support team"
+  },
+  "delivery": {
+    "title": "Delivery Information",
+    "about": {
+      "title": "About Our Delivery Service",
+      "description": "We offer fast and reliable delivery services across the country. Our team ensures your orders arrive safely and on time."
+    },
+    "zones": {
+      "title": "Delivery Zones",
+      "description": "We deliver to the following cities and surrounding areas:",
+      "cities": [
+        "Chisinau - Free delivery for orders over 500 MDL",
+        "Balti - 50 MDL delivery fee",
+        "Orhei - 70 MDL delivery fee",
+        "Other cities - Delivery available upon request"
+      ]
+    },
+    "time": {
+      "title": "Delivery Time",
+      "description": "Standard delivery times:",
+      "details": [
+        "Chisinau: 1-2 business days",
+        "Balti: 2-3 business days",
+        "Other cities: 3-5 business days",
+        "Express delivery available for an additional fee"
+      ]
+    },
+    "costs": {
+      "title": "Delivery Costs",
+      "description": "Our delivery fees are based on location:",
+      "list": [
+        "Chisinau: Free for orders over 500 MDL, otherwise 30 MDL",
+        "Balti: 50 MDL flat rate",
+        "Orhei: 70 MDL flat rate",
+        "Other cities: Calculated based on distance"
+      ]
+    },
+    "contact": {
+      "title": "Delivery Contact",
+      "description": "For delivery inquiries or special requests:",
+      "details": [
+        "Phone: +373 123 456 78",
+        "Email: delivery@smartstore.com",
+        "Working hours: Mon-Fri 9:00-18:00"
+      ]
+    }
+  },
+  "discounts": {
+    "home": "Home",
+    "breadcrumb": "Discounts & Offers",
+    "title": "Special Discounts",
+    "subtitle": "Limited-time offers on our best products. Don't miss out!",
+    "categories": {
+      "airpods": "Wireless Earbuds",
+      "watches": "Smart Watches",
+      "smartphones": "Smartphones",
+      "headphones": "Premium Headphones"
+    },
+    "forgot_password": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email and we'll send you a link to reset your password",
+      "email_label": "Email address",
+      "email_placeholder": "your@email.com",
+      "email_required": "Email is required",
+      "invalid_email": "Please enter a valid email address",
+      "reset_button": "Send reset link",
+      "sending": "Sending",
+      "reset_email_sent": "Password reset link has been sent to your email",
+      "reset_email_failed": "Failed to send reset email. Please try again."
+    }
+  },
+  "home": {
+    "title": "Online store of electronics and appliances in Moldova"
+  },
+  "login": {
+    "all_fields_required": "All fields are required",
+    "invalid_email": "Please enter a valid email address",
+    "email": "Email",
+    "enter_email": "Enter your email",
+    "email_example": "Example email format",
+    "password": "Password",
+    "enter_password": "Enter your password",
+    "forgot_password": "Forgot password?",
+    "login_button": "Login",
+    "login_failed": "Login failed. Please try again.",
+    "dont_have_account": "Don't have an account?",
+    "sign_up": "Sign up"
+  },
+  "payment": {
+    "title": "Payment & Delivery",
+    "deliveryMethod": "Delivery Method",
+    "deliveryCourier": "Courier Delivery",
+    "deliveryPickup": "Pickup from Store",
+    "deliveryAddress": "Delivery Address",
+    "contactPhone": "Contact Phone",
+    "contactPhonePlaceholder": "Enter your phone number",
+    "paymentDetails": "Payment Details",
+    "cardName": "Cardholder Name",
+    "cardNamePlaceholder": "Name on card",
+    "cardNumber": "Card Number",
+    "cardNumberPlaceholder": "1234 5678 9012 3456",
+    "expiryDate": "Expiry Date",
+    "expiryDatePlaceholder": "MM/YY",
+    "cvv": "CVV",
+    "cvvPlaceholder": "123",
+    "payButton": "Pay Now",
+    "processing": "Processing...",
+    "acceptedCards": "We accept",
+    "securityMessage": "Your payment information is processed securely. We do not store your credit card details.",
+    "address": {
+      "region": "Region",
+      "city": "City",
+      "cityPlaceholder": "Enter your city",
+      "street": "Street",
+      "streetPlaceholder": "Street and house number",
+      "postalCode": "Postal Code",
+      "postalCodePlaceholder": "Enter postal code"
+    },
+    "errors": {
+      "cardNameRequired": "Cardholder name is required",
+      "cardNumberRequired": "Card number is required",
+      "cardNumberInvalid": "Invalid card number format",
+      "expiryDateRequired": "Expiry date is required",
+      "expiryDateInvalid": "Invalid expiry date format (MM/YY)",
+      "cvvRequired": "CVV is required",
+      "cvvInvalid": "Invalid CVV (3 digits for Visa/Mastercard, 4 for Amex)",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Invalid phone number (8 digits minimum)",
+      "streetRequired": "Street address is required",
+      "cityRequired": "City is required",
+      "postalCodeRequired": "Postal code is required",
+      "paymentFailed": "Payment failed. Please check your details."
+    },
+    "successMessage": "Payment successful! Your order is being processed."
+  },
+  "register": {
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "enter_name": "Enter your name",
+    "enter_email": "Enter your email",
+    "enter_password": "Enter your password",
+    "enter_confirm_password": "Confirm your password",
+    "example": "example",
+    "upload_photo": "Upload photo",
+    "sign_up": "Sign Up",
+    "already_have_account": "Already have an account?",
+    "login": "Login",
+    "password_mismatch": "Password and Confirm Password do not match!",
+    "signup_failed": "Signup failed, please try again later"
+  },
+  "search": {
+    "loading": "Loading",
+    "results": "Search results",
+    "no_results": "No products found"
+  },
+  "notFound": {
+    "message": "Oops! Page not found",
+    "button": "Go back"
+  },
+  "cart": {
+    "yourCart": "Your Cart",
+    "items": "items",
+    "emptyCart": "Your cart is empty",
+    "addProductsPrompt": "Add products to your cart to continue shopping",
+    "products": "Products",
+    "totalQuantity": "Total Quantity",
+    "totalToPay": "Total to Pay",
+    "proceedToPayment": "Proceed to Payment",
+    "subtotal": "Subtotal",
+    "removeItem": "Remove item",
+    "decreaseQuantity": "Decrease quantity",
+    "increaseQuantity": "Increase quantity",
+    "emptyCartAlert": "Your cart is empty",
+    "loginRequired": "Please login to proceed",
+    "fetchError": "Error loading cart",
+    "quantityUpdated": "Quantity updated",
+    "updateError": "Error updating quantity",
+    "productRemoved": "Product removed",
+    "deleteError": "Error removing product",
+    "authRequired": "Please authenticate to complete your order"
+  },
+  "signup": {
+    "upload_photo": "Upload Photo",
+    "name": "Name",
+    "enter_name": "Enter your name",
+    "email": "Email",
+    "enter_email": "Enter your email",
+    "password": "Password",
+    "enter_password": "Enter your password",
+    "confirm_password": "Confirm Password",
+    "enter_confirm_password": "Confirm your password",
+    "sign_up": "Sign Up",
+    "already_have_account": "Already have an account?",
+    "login": "Login",
+    "password_mismatch": "Passwords do not match",
+    "signup_failed": "Sign up failed, please try again"
+  },
+  "allUsers": {
+    "sr": "Sr",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "createdDate": "Created Date",
+    "action": "Action"
+  },
+  "adminProducts": {
+    "allProducts": "All Products",
+    "uploadProduct": "Upload Product"
+  },
+  "categories": {
+    "Smartphones": "Smartphones",
+    "Headphones": "Headphones",
+    "Smartwatches": "Smartwatches",
+    "Laptops": "Laptops",
+    "Monitors": "Monitors",
+    "Computers": "Computers",
+    "TVs": "TVs",
+    "Refrigerators": "Refrigerators",
+    "Washing Machines": "Washing Machines",
+    "Dryers": "Dryers",
+    "Dishwashers": "Dishwashers",
+    "Vacuum Cleaners": "Vacuum Cleaners",
+    "Coffee Machines": "Coffee Machines",
+    "Microwave Ovens": "Microwave Ovens",
+    "Cameras": "Cameras",
+    "Printers": "Printers",
+    "Processors": "Processors",
+    "Speakers": "Speakers",
+    "Earphones": "Earphones",
+    "Mouse": "Mouse"
+  },
+  "payment": {
+    "title": "Payment Details",
+    "paymentDetails": "Payment Details",
+    "cardName": "Cardholder Name",
+    "cardNamePlaceholder": "John Doe",
+    "cardNumber": "Card Number",
+    "expiryDate": "Expiry Date",
+    "cvv": "CVV",
+    "chooseDeliveryMethod": "Delivery Method",
+    "deliveryCourier": "Courier Delivery",
+    "deliveryPickup": "Store Pickup",
+    "contactPhone": "Contact Phone",
+    "address": {
+      "region": "Region",
+      "city": "City",
+      "postalCode": "Postal Code",
+      "street": "Street"
+    },
+    "pickupPoint": "Pickup Point",
+    "pickupDate": "Pickup Date",
+    "selectPickupPoint": "Select Pickup Point",
+    "payButton": "Pay Now",
+    "processing": "Processing...",
+    "acceptedCards": "Accepted Cards",
+    "securityMessage": "Secure SSL encryption",
+    "cardTypes": {
+      "visa": "Visa",
+      "mastercard": "Mastercard",
+      "amex": "American Express"
+    },
+    "pickupPoints": {
+      "center": "City Center",
+      "botanica": "Botanica District",
+      "riscani": "Riscani District",
+      "ciocana": "Ciocana District"
+    },
+    "errors": {
+      "cardNameRequired": "Cardholder name is required",
+      "cardNumberInvalid": "Invalid card number",
+      "expiryDateInvalid": "Invalid expiration date",
+      "cvvInvalid": "Invalid CVV",
+      "phoneInvalid": "Invalid phone number",
+      "streetRequired": "Street is required",
+      "cityRequired": "City is required",
+      "postalCodeRequired": "Postal code is required",
+      "pickupPointRequired": "Pickup point is required",
+      "paymentFailed": "Payment failed"
+    },
+    "successMessage": "Payment successful!"
+  }
+}

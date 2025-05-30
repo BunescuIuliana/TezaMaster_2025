@@ -1,0 +1,1 @@
+router.delete('/clear', authMiddleware, cartController.clearCart);
